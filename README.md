@@ -93,6 +93,7 @@ date       | error
 
 # 6. REFERENCES
 
-- https://app.pluralsight.com/library/courses/introduction-to-sql/table-of-contents
+
 - https://www.w3schools.com/sql/sql_view.asp
 - https://stackoverflow.com
+- https://app.pluralsight.com/library/courses/introduction-to-sql/table-of-contents
