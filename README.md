@@ -91,7 +91,7 @@ date       | error
 ```
 
 
-# 6. REFERENCES
+# REFERENCES
 
 
 - https://www.w3schools.com/sql/sql_view.asp
