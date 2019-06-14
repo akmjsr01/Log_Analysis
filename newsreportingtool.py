@@ -87,4 +87,4 @@ if __name__ == '__main__':
     # Print query results
     print_query_1(query1_result)
     print_query_2(query2_result)
-print_query_3(query3_result)
+    print_query_3(query3_result)
