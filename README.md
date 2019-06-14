@@ -8,17 +8,12 @@ A PostgreSQL database has been used and task was to create a reporting tool whic
 # Running the program
 To run the files in this project following are required:
 - Python 3.6.x
-- PostgreSQL 9.6.x
+- PostgreSQL 
 - Vagrant
 - VirtualBox
 
 To execute the program, run ```python3 newsreportingtool.py``` from the command line.
 
-The database has three tables:
-
-- The __authors table__   has information about the authors of articles.
-- The __articles table__  has the articles themselves.
-- The __log table__  has one entry for each time a user has accessed the site
 
 
 # Data used in the project
