@@ -1,43 +1,24 @@
 # Log Analysis Project
-> by Paulina Grunwald
 
-This project is a part of [Udacity's Full Stack Nanodegree Program](https://www.udacity.com/nanodegree). In this project, I had to use my SQL database knowledge in order to extract various data from the database. I practiced interacting with a live database both from the command line and from your code. I have explored a large database with over a million rows. I have also  built and refined complex queries and use them to draw business conclusions from data.
+The project is to to use SQL database knowledge to extract various data from a large database with over a million rows using both the command line and code. I built and refined complex queries to to draw business conclusions from data in this case answer questions related to News Paper articles.
 
-In this project, I have used  PostgreSQL database. My task was to create a reporting tool that prints out reports (in plain text) based on the data in the database. This reporting tool is a Python program using the psycopg2 module to connect to the database.
-
-
-# Table of contents
-
-- [How to run my project](#how-to-run-my-project)
-- [Data used in the project](#data-used-in-the-project)
-- [Data exploration](#data-exploration)
-- [Questions for this assignment](#questions-for-this-assignment)
-- [Troubleshooting](#troubleshooting)
-- [References](#references)
+A PostgreSQL database has been used and task was to create a reporting tool which prints out reports based on the data in the database. The reporting tool is a Python program that uses the psycopg2 module to connect to the database.
 
 
-# How to run my project
-In order to be able to run all the files included in this project you need to have installed on your machine following  applications:
+# Running the program
+To run the files in this project following are required:
 - Python 3.6.x
 - PostgreSQL 9.6.x
 - Vagrant
 - VirtualBox
 
-Steps:
-- Unizp newsdata.rar (you can find newsdata.sql database inside of the zipped file)
-- Install Vagrant And VirtualBox
-- Clone this repository
-- Launch Vagrant VM by running ```vagrant up```, you can the log in with ```vagrant ssh```
-- When having problems with starting up your vagrant you can try following command instead vagrant ssh: ```VAGRANT_PREFER_SYSTEM_BIN=1 vagrant ssh```
-- To load the data go to the folder where the database is stored, use the command ```psql -d news -f newsdata.sql``` to connect a database and run the necessary SQL statements.
+To execute the program, run ```python3 newsreportingtool.py``` from the command line.
 
-To execute the program, run ```python3 newsdata.py``` from the command line.
+The database has three tables:
 
-The database includes three tables:
-
-- The __authors table__ includes information about the authors of articles.
-- The __articles table__ includes the articles themselves.
-- The __log table__ includes one entry for each time a user has accessed the site
+- The __authors table__ - has information about the authors of articles.
+- The __articles table__  has the articles themselves.
+- The __log table__  has one entry for each time a user has accessed the site
 
 
 # Data used in the project
