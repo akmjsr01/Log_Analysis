@@ -1,4 +1,5 @@
 # Log Analysis Project
+> by Anil Mishra
 
 The project is to to use SQL database knowledge to extract various data from a large database with over a million rows using both the command line and code. I built and refined complex queries to to draw business conclusions from data in this case answer questions related to News Paper articles.
 
@@ -12,7 +13,13 @@ To run the files in this project following are required:
 - Vagrant
 - VirtualBox
 
-To execute the program, run ```python3 newsreportingtool.py``` from the command line.
+Steps:
+- Install Vagrant And VirtualBox
+- First launch Vagrant VM by running ```vagrant up```, and log in with ```vagrant ssh```
+- In case of problems in starting up the vagrant, altrenatively can try following command instead vagrant ssh: ```VAGRANT_PREFER_SYSTEM_BIN=1 vagrant ssh```
+- load the data by going to the folder where the [database] (https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) is stored. Use command ```psql -d news -f newsdata.sql``` to connect a database and run the necessary SQL statements.
+
+Execute program ewsreportingtool.py by command run ```python3 newsreportingtool.py``` from the command line.
 
 
 
