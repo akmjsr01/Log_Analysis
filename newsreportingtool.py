@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-
-# Log Analysis project - To analyze article of a newspaper. 
+# Log Analysis project - To analyze article of a newspaper.
 # Import modules
 
 import psycopg2
@@ -49,7 +48,7 @@ def print_query_3(query_result):
     for index, results in enumerate(query_result[0]):
         print("\t", str(index+1) + ".", results[0],
               "\t - ", str(results[1]), "%")
-        
+
 
 question1 = ("What are the most popular three articles of all time?")
 
